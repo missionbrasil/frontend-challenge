@@ -13,16 +13,16 @@ Na data agedanda vamos falar um pouquinho sobre o seu código, como se fosse um 
 ## Ambiente
 - Utilizar Next >= 13
 - App Router
-- Deploy Vercel
 - Tailwind
 - Next Auth (Para Autenticação)
+- Utilizar componentes com [shad](https://ui.shadcn.com/)
+- Deploy Vercel
 
 ## Objetivo: Mission Store
 Vamos criar uma lojinha com produtos que permitem você adicionar produtos e realizar uma compras.
 
-Requisitos
-- Utilizar [shad](https://ui.shadcn.com/) para componentização.
-- Tela de Login
+Requisitos:
+
 - Criar Páginas
   - Login
   - Cadastro de Produtos
@@ -30,7 +30,9 @@ Requisitos
 - Na página de "Cadastro de Produtos"
   - Nome do Produto
   - Preço
+  - Descrição
 - Na página de "Lista de Produtos"
   - Produto
   - Botão de Adicionar no Carrinho
+  - Grid com 3 Colunas
 - Criar Drawer para "Carrinho" listando produtos adicionados
