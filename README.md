@@ -1,2 +1,36 @@
-# frontend-challenge
-Desafio Técnico - Frontend
+# Desafio Frontend Mission Brasil
+Primeiramente, muito obrigado pelo interesse em trabalhar na maior plataforma de serviços recompensados do Brasil!
+
+## Avisos antes de começar
+- Crie um repositório no Github sem citar nada relacionado ao Mission Brasil.
+- Faça pelo menos 2 commits.
+- Envie o link do seu repositório para o e-mail do recrutador responsável.
+- Fique a vontade para perguntar qualquer dúvida aos recrutadores.
+
+## Caso você seja aprovado para etapa da entrevista técnica
+Na data agedanda vamos falar um pouquinho sobre o seu código, como se fosse um code review analisando alguns detalhes, nada muito profundo, apenas para nos conhecermos melhor e você entender um pouco mais sobre fit cultural da empresa.
+
+## Ambiente
+- Utilizar Next >= 13
+- App Router
+- Deploy Vercel
+- Tailwind
+- Next Auth (Para Autenticação)
+
+## Objetivo: Mission Store
+Vamos criar uma lojinha com produtos que permitem você adicionar produtos e realizar uma compras.
+
+Requisitos
+- Utilizar [shad](https://ui.shadcn.com/) para componentização.
+- Tela de Login
+- Criar Páginas
+  - Login
+  - Cadastro de Produtos
+  - Lista de Produtos
+- Na página de "Cadastro de Produtos"
+  - Nome do Produto
+  - Preço
+- Na página de "Lista de Produtos"
+  - Produto
+  - Botão de Adicionar no Carrinho
+- Criar Drawer para "Carrinho" listando produtos adicionados
