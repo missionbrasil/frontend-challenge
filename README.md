@@ -36,3 +36,16 @@ Requisitos:
   - Botão de Adicionar no Carrinho
   - Grid com 3 Colunas
 - Criar Drawer para "Carrinho" listando produtos adicionados
+
+## Avaliação
+
+- Documentação
+- Apresentar soluções que domina
+- Tratamento de erros
+- Cuidado com itens de segurança
+- Arquitetura
+- Desacoplamento e reutilização de componentes (Composition, Providers...)
+
+## Tem um prazo de entrega?
+
+Normalmente em 5 dias, tente focar em qualidade de entrega, caso demore um pouco mais, não tem problema, faça no seu tempo, isso não é o mais importante pra nós.
