@@ -14,7 +14,7 @@ Na data agedanda vamos falar um pouquinho sobre o seu código, como se fosse um 
 - Utilizar Next >= 13
 - App Router
 - Tailwind
-- Next Auth (Para Autenticação)
+- Next Auth (Para Autenticação, Utilizar Google)
 - Utilizar componentes com [shad](https://ui.shadcn.com/)
 - Deploy Vercel
 
