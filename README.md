@@ -35,6 +35,7 @@ Requisitos:
   - Produto
   - Botão de Adicionar no Carrinho
   - Grid com 3 Colunas
+  - Adicionar Campo de Busca utilizando `searchParams`
 - Criar Drawer para "Carrinho" listando produtos adicionados
 
 ## Avaliação
