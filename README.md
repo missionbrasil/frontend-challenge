@@ -8,10 +8,10 @@ Primeiramente, muito obrigado pelo interesse em trabalhar na maior plataforma de
 - Fique a vontade para perguntar qualquer dúvida aos recrutadores.
 
 ## Caso você seja aprovado para etapa da entrevista técnica
-Na data agedanda vamos falar um pouquinho sobre o seu código, como se fosse um code review analisando alguns detalhes, nada muito profundo, apenas para nos conhecermos melhor e você entender um pouco mais sobre fit cultural da empresa.
+Na data agendada vamos falar um pouquinho sobre o seu código, como se fosse um code review analisando alguns detalhes, nada muito profundo, apenas para nos conhecermos melhor e você entender um pouco mais sobre fit cultural da empresa.
 
 ## Ambiente
-- Utilizar Next >= 13
+- Utilizar Next >= 14
 - App Router
 - Tailwind
 - Next Auth (Para Autenticação, Utilizar Google)
