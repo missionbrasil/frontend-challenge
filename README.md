@@ -18,33 +18,53 @@ Na data agendada vamos falar um pouquinho sobre o seu código, como se fosse um 
 - Utilizar componentes com [shad](https://ui.shadcn.com/)
 - Deploy Vercel
 
-## Objetivo: Mission Store
-Vamos criar uma lojinha com produtos que permitem você adicionar produtos e realizar uma compras.
+## Desafio: Construção de um Dashboard Interativo para Gerenciamento de Projetos
 
-Requisitos:
+## Objetivo
 
-- Criar Páginas
-  - Login
-  - Cadastro de Produtos
-  - Lista de Produtos
-- Na página de "Cadastro de Produtos"
-  - Nome do Produto
-  - Preço
-  - Descrição
-- Na página de "Lista de Produtos"
-  - Produto
-  - Botão de Adicionar no Carrinho
-  - Grid com 3 Colunas
-  - Adicionar Campo de Busca utilizando `searchParams`
-- Criar Drawer para "Carrinho" listando produtos adicionados
+Criar um dashboard interativo utilizando Next.js, shadcn (Radix UI com TailwindCSS), e TailwindCSS, com foco em responsividade, acessibilidade e boas práticas de desenvolvimento frontend.
+
+## Especificações do Desafio
+
+### Funcionalidades Básicas
+
+- Página Inicial (Home)
+  - Um resumo dos projetos ativos e concluídos.
+  - Gráficos simples mostrando progresso (por exemplo, usando uma biblioteca de gráficos como recharts ou chart.js).
+  - Links para acessar páginas detalhadas.
+- Página de Projetos
+  - Lista de projetos com:
+  - Nome do projeto.
+  - Status (ativo, atrasado, concluído).
+  - Barra de progresso (usando componentes estilizados do shadcn).
+	- Um botão para criar um novo projeto (abre um modal).
+    - Modal de Criação de Projetos
+      - Campos obrigatórios:
+      - Nome do projeto.
+      - Data de início e fim.
+      - Descrição.
+      - Responsável (pode ser um dropdown com opções pré-definidas).
+	•	Validação de formulários (ex.: usar react-hook-form com feedback visual).
+- Página de Detalhes do Projeto
+  - Exibir detalhes do projeto, como:
+    - Tarefas associadas (componente de lista).
+    - Comentários (usando caixas de texto e um botão para adicionar).
+    - Opção para marcar tarefas como concluídas (feedback visual imediato).
+
+
+## Extra (Desafios Avançados)
+- Autenticação: Implementar autenticação simples com next-auth (Google ou GitHub).
+- Persistência de Dados: Usar um banco de dados simples, como SQLite ou MongoDB, com Prisma ou outra ferramenta ORM.
+- Dark Mode: Adicionar suporte ao modo escuro com Tailwind.
 
 ## Avaliação
 
-- Documentação
+- Documentação (ex.: README.md com instruções de execução).
 - Apresentar soluções que domina
 - Tratamento de erros
 - Cuidado com itens de segurança
 - Arquitetura
+- Design e Responsividade
 - Desacoplamento e reutilização de componentes (Composition, Providers...)
 
 ## Tem um prazo de entrega?
